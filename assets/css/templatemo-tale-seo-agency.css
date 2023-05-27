@@ -1086,24 +1086,15 @@ Infos Style
 .infos .main-content {
   overflow: hidden;
   background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 60% auto;
+  background-position: right bottom;
+  background-image: url(../images/Twitter_Monochromatic.png);
   border-radius: 23px;
 }
 
-.infos .main-content .left-image {
-  background-image: url(../images/left-infos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-}
-
-.infos .main-content .left-image img {
-  display: none;
-}
-
 .infos .main-content .section-heading {
-  padding: 60px 60px 30px 60px;
+  padding: 50px 30px 30px 30px;
 }
 
 .infos .main-content .skills {
